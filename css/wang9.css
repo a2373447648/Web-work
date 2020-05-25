@@ -1,0 +1,227 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+#zong_box{
+	background: url(../images/wang95.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 800px;
+
+}
+#nav{
+	width: 100%;
+	height: 60px;
+	background: rgba(255,255,255,0);/*这个值不确定*/
+}
+#nav ul{
+	float: right;
+	height: 44px; 
+	margin-right: 100px;
+}
+#nav ul li{
+	float: left;
+	line-height: 60px;
+	width: 150px;
+	text-align: center;
+}
+#nav:hover{
+	background-color:rgba(255,255,255,0.35);
+	transition:0.3s;
+}
+#nav ul li:hover{
+	background-color:rgba(33,33,33,0.1);
+	transition:0.3s;
+}
+#nav1{
+	float: left;
+	position: absolute;
+	display: none;
+}
+#nav1 a{
+	color: #000;
+	font-size: 15px;
+}
+#nav li #nav1 li{
+	float: none;
+	transition:0.3s;
+}
+#nav li:hover #nav1{
+	display: block;
+}
+#tubiao{
+	width: 55px;
+	height: 50px;
+	border-radius: 8px;
+	margin-left: 150px;
+	padding: 5px 0;
+}
+#tubiao:hover{
+	transition:0.3s;
+	transform:scale(1.25);
+}
+#about{
+	margin-top: 450px;
+	float: right;
+}
+#about ul{
+	width: 70px;
+	height: 300px;
+
+}
+#about ul li{
+	height: 55px;
+}
+#about ul li a img{
+	width: 30px;
+	height: 30px;
+	position: fixed;
+}
+#about ul li a img:hover{
+	transform:scale(1.3);
+}
+#told{
+	width: 700px;
+	height: 100px;
+	border-radius: 30px 0  30px  0;
+	background-color: #ddd;
+	margin: 0 auto;
+	font-family: 幼圆;
+	font-size: 20px;
+	margin-top: 30px;
+}
+#told p{
+	line-height: 100px;
+	text-align: center;
+	color: #000;
+}
+#content{
+	width: 75%;
+	height: 350px;
+	background-color: rgba(255,255,255,0.3);
+	margin: 30px auto;
+	border-radius: 10px;
+}
+#content #box_nav{
+	width: 100%;
+	height: 44px;
+}
+#box_nav ul li{
+	float:left;
+	width: 50%;
+	text-align: center;
+	line-height: 44px;
+	font-size: 20px;
+}
+#box_nav ul li:hover{
+	background-color: #ddd;
+	transition:0.3s;
+}
+.lie ul li a:hover{
+	background-color: #ddd;
+	transition:0.3s;
+}
+.lie{
+	width: 50%;
+	height: 300px;
+	float: left;
+	text-align: center;
+}
+.lie ul li{
+	height: 40px;
+}
+.lie ul li a{
+	color: #666;
+}
+#biji{
+	width: 75%;
+	height: 150px;
+	background-color: rgba(255,255,255,0.3);
+	margin:0 auto;
+	border-radius: 10px;
+}
+#biji h2{
+	text-align: center;
+	color:#666;
+	font-family: 幼圆;
+}
+#biji p{
+	font-size: 20px;
+	line-height: 110px;
+	text-align: center;
+	color: #000;
+}
+#butter_box{
+	width:100%;
+	height: 350px;
+	margin: 0 auto;
+}
+#butter_box #first{
+	width: 75%;
+	height: 400px;
+	margin: 0 auto;
+}
+#butter_box #first h2{
+	color: #666;
+	margin-top: 20px;
+}
+.footer{
+	width: 75%;
+	height: 200px;
+	margin: 0 auto;
+}
+.footer h2{
+	color: #666;
+	margin-top: 15px;
+}
+.footer table{
+	width: 50%;
+	height: 200px;
+	margin:50px auto;
+	color: #666;
+}
+.footer tr td img{
+	width: 200px;
+	float: left;
+}
+.footer #child1 p{
+	font-size: 20px;
+	color: #666;
+	text-align: center;
+	font-family: 幼圆;
+	margin-bottom: 15px;
+}
+#photo ul li img{
+width: 100%;
+height: 250px;
+}
+#photo>ul>li{
+width: 300px;
+float: left;
+}
+#photo > ul {
+width: 200%;
+list-style: none;
+animation: imgMove 5s linear infinite;
+}
+#photo{
+width: 840px;
+height: 300px;
+margin: 50px auto;
+overflow: hidden;
+border-radius: 10px;
+}
+#photo>ul:hover{
+animation-play-state: paused;
+}
+@keyframes imgMove {
+from {
+transform: translateX(0px);
+}
+to {
+transform: translateX(-600px);
+}
+}
