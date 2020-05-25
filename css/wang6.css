@@ -1,0 +1,95 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background:url(../images/lanse.jpg) no-repeat center top;
+	background-size: cover;
+}
+#zhu{
+	margin-top: 5px;
+}
+#top{
+	color: #ccc;
+	width: 600px;
+	margin:0 auto;
+	margin-bottom: 5px;
+}
+#box1{
+	height: 44px;
+	width: 600px;
+	margin:0 auto;
+	border-bottom: 1px solid #ccc;
+	margin-top: 15px;
+
+}
+h1{
+	text-align: left;
+	text-shadow:2px 2px 8px #fee;
+	color: #fff;
+}
+form{
+	width: 600px;
+	margin:0 auto;
+	
+}
+form fieldset{
+	box-shadow: 0 0 3px #fff;
+	padding: 20px 20px;
+	border-radius: 20px;
+	background-color: rgba(255,255,255,0.5);
+}
+form fieldset legend{
+	font-size: 25px;
+	color: #05f;
+	text-shadow:0 0 5px #fff;
+}
+form fieldset input{
+	height: 25px;
+	border-radius: 5px;
+	box-shadow: 0 0 3px #fff;
+	margin-top: 5px;
+	border:1px solid #ccc;
+	outline:none;
+	padding-left: 15px;
+}
+form fieldset input[type=radio],form fieldset input[type=checkbox]{
+	height: 10px;
+}
+form fieldset input[type=file]{
+	border:0;
+	padding: 0;
+}
+#btn-group{
+	text-align: center;
+}
+#btn-group input{
+	margin-top: 20px;
+}
+form input[type=submit],form input[type=reset]{
+	padding:6px 20px;
+	font-size: 20px;
+	margin:20px 15px 0;
+	color: #fff;
+	border-radius: 5px;
+	border-color: rgb(0,134,219);
+	background-color: rgba(0,134,219,0.7);
+}
+form input[type=submit]:hover{
+	font-size: 25px;
+}
+form input[type=reset]:hover{
+	font-size: 25px;
+}
+form table td:first-child{
+	text-align: right;
+}
+#jl{
+	border-radius: 5px;
+	border:1px solid #ccc;
+	padding: 5px;
+}
+#jl:hover{
+	border-color: #0cf;
+	outline: none;
+}

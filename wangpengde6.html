@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>王鹏德第六个网页</title>
+	<link rel="stylesheet" type="text/css" href="css/wang6.css">
+</head>
+<body><div>
+<div id="box1"><h1>注册新用户</h1></div>
+	<form action="ziyoude.html" method="post"><div id="zhu">
+		<fieldset><legend>基本信息</legend>
+		<table><tr>
+			<td>用户名:</td>
+			<td><input type="text" name="user" placeholder="请输入用户名" autofocus  required maxlength="15"><br></td>
+		</tr>
+		<tr>
+			<td>密码:</td>
+			<td><input type="password"  name="pd" placeholder="请输入密码" required><br></td>
+		</tr>
+		<tr>
+			<td><label for="sex">性别:</label></td>
+			<td><input type="radio" name="sex" value="male" id="male"><label for="male">男</label><input type="radio" name="sex" value="famale" id="famale"><label for="famale">女</label><br></td>
+		</tr>
+		<tr>
+			<td>爱好:</td>
+			<td><input type="checkbox" name="ah" value="ah" id="ah"><label for="ah">音乐</label>
+		<input type="checkbox" name="wd"  value="ah" id="wd"><label for="wd">舞蹈</label>
+		<input type="checkbox" name="yd" value="ah" id="yd"><label for="yd">运动</label><br></td>
+		</tr>
+		<tr>
+			<td>籍贯:</td>
+			<td><select name="jg" id="jg">
+			<option value="陕西省">陕西省</option>
+			<option value="">四川省</option>
+			<option value="">北京市</option>
+			<option value="">江苏省</option>
+		</select><br></td>
+		</tr>
+		<tr>
+			<td>上传照片:</td>
+			<td><input type="file" name="wj"><br></td>
+		</tr>
+		<tr>
+			<td>个人简历:</td>
+			<td><textarea name="jl" id="jl" cols="30" rows="10" placeholder="请输入您的自我介绍" required></textarea>
+		</td>
+		</tr></table></fieldset>
+		<fieldset><legend>高级信息</legend>
+		<table><tr>
+			<td>个人主页:</td>
+			<td><input type="url" requestd name="zy" required><br></td>
+		</tr>
+		<tr>
+			<td>电子邮箱:</td>
+			<td><input type="email" name="email" required><br></td>
+		</tr>
+		<tr>
+			<td>你的年龄:</td>
+			<td><input type="number" max="30" min="18" value="20" step="1" required><br></td>
+		</tr>
+		<tr>
+			<td>你的身高:</td>
+			<td>150<input type="range" mix="200cm" min="150cm" value="170cm" step="5cm" onchange="showValue(this.value)" ><span id="sg"></span><br></td>
+		</tr>
+		<tr>
+			<td>你喜欢的颜色:</td>
+			<td><input type="color" value="#eea2a4" onchange="document.bgColor=this.value"><br></td>
+		</tr>
+		<tr>
+			<td>手机号码:</td>
+			<td><input type="tel" required></td>
+		</tr></table>
+		</fieldset>
+		<div id="btn-group">
+			<input type="submit" id="cz" value="注册">
+			<input type="reset" id="cz">
+		</div>
+	</div>
+	</form>
+	</div>
+	<script type="text/javascript">
+	     function  showValue(val){
+		Document.getElementByID("sg").innerHTML = val;
+	}
+	</script>
+</body>
+</html>
